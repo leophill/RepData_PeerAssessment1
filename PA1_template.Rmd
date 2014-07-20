@@ -19,6 +19,7 @@ library(ggplot2)
 # Set working directoy here for csv file loading
 adata <- read.csv("Y:\\Github\\RepData_PeerAssessment1\\activity.csv", stringsAsFactors = FALSE)
 adata$date <- as.Date(adata$date)
+# Checking data structure
 head(adata)
 ```
 
